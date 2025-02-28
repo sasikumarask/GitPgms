@@ -3,14 +3,14 @@ package pgms;
 public class ArmstrongNumber {
 
 	public static void main(String[] args) {
-		int num=153;
+		int num1=153;
 		int arm=0;
-		int temp=num;
-		while(num>0)
+		int temp=num1;
+		while(num1>0)
 		{
-			int rem=num%10;
+			int rem=num1%10;
 			arm=arm+(rem*rem*rem);
-			num=num/10;
+			num1=num1/10;
 		}
 		if(temp==arm)
 		{
